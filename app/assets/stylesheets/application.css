@@ -13,7 +13,6 @@
  *= require_tree .
  *= require_self
  */
-@import "pages";
 
 body {
   font-family: 'Montserrat', sans-serif;
