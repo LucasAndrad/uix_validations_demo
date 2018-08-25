@@ -1,2 +1,19 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="container">
+  <h1 class="home-title">Uix Validations</h1>
+  <div class="home-form">
+    <%= form_for "" do |f| %>
+
+      <div class="input">
+        <%= f.label "Input" %><br>
+        <%= f.text_field :title, class: "input-text", id: "valid1" %>
+      </div>
+      <div class="input">
+        <%= f.label "Input" %><br>
+        <%= f.text_field :title, class: "input-text", id: "valid2" %>
+      </div>
+
+      <%= f.submit "Create" %>
+
+    <% end %>
+  </div>
+</div>

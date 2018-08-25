@@ -1,3 +1,28 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.container {
+  width: 100%;
+}
+.home-form {
+  width: 60%;
+  margin: 0 auto;
+}
+.home-title {
+  font-family: 'Poiret One', cursive;
+  font-weight: 100;
+  font-size: 500%;
+  margin-top: 5%;
+  text-align: center;
+}
+.input {
+  width: 50%;
+  margin: 5% auto;
+}
+.input-text {
+  margin-top: 3%;
+  padding: 2% 3%;
+  width: 90%;
+  border: 1px solid #acacac;
+  border-radius: 10px;
+}
