@@ -1,19 +1,20 @@
 <div class="container">
   <h1 class="home-title">Uix Validations</h1>
   <div class="home-form">
-    <%= form_for "" do |f| %>
+    <%= form_for '' do |f| %>
 
       <div class="input">
-        <%= f.label "Input" %><br>
-        <%= f.text_field :title, class: "input-text", id: "valid1" %>
+        <%= f.label 'Input' %><br>
+        <%= f.text_field :title, class: 'input-text', id: 'valid1' %>
       </div>
       <div class="input">
-        <%= f.label "Input" %><br>
-        <%= f.text_field :title, class: "input-text", id: "valid2" %>
+        <%= f.label 'Input' %><br>
+        <%= f.text_field :title, class: 'input-text', id: 'valid2' %>
       </div>
 
-      <%= f.submit "Create" %>
-
+      <div class="btn-submit">
+        <%= f.submit 'Submit', class: 'form-btn' %>
+      </div>
     <% end %>
   </div>
 </div>

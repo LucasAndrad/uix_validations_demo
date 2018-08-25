@@ -22,7 +22,25 @@
 .input-text {
   margin-top: 3%;
   padding: 2% 3%;
-  width: 90%;
+  width: 94%;
   border: 1px solid #acacac;
   border-radius: 10px;
+}
+.btn-submit {
+  width: 50%;
+  margin: 5% auto;
+}
+.form-btn {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(31, 150, 247);
+  color: #ffffff;
+  padding: 1%;
+  font-size: 130%;
+  transition: 0.3s;
+}
+.form-btn:hover {
+  cursor: pointer;
+  background-color: rgb(32, 108, 170);
 }
