@@ -5,12 +5,18 @@
     
 
       <div class="input">
-        <%= f.label 'Input' %><br>
-        <%= f.text_field :title, class: 'input-text', id: 'valid1' %>
+        <%= f.label 'Validate Number' %><br>
+        <%= f.text_field :title, class: 'input-text', id: 'input-num' %>
+        <div class="uix-validation size" id="vali1">
+          Should have only numbers
+        </div>
       </div>
       <div class="input">
-        <%= f.label 'Input' %><br>
-        <%= f.text_field :title, class: 'input-text', id: 'valid2' %>
+        <%= f.label 'Email' %><br>
+        <%= f.text_field :title, class: 'input-text', id: 'input-email' %>
+        <div class="uix-validation size" id="vali2">
+          Should be a valid email, ex: <i>username@email.com<i>
+        </div>
       </div>
 
       <div class="btn-submit">
@@ -19,3 +25,9 @@
     <% end %>
   </div>
 </div>
+
+
+<script>
+  validateNumber("#input-num", "#vali1");
+  validateEmail("#input-email", "#vali2");
+</script>
